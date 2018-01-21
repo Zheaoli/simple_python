@@ -18,6 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine.h" />
+    <ClInclude Include="pydictobject.h" />
+    <ClInclude Include="pyobject.h" />
+    <ClInclude Include="pyintobject.h" />
+    <ClInclude Include="pystrobject.h" />
+    <ClInclude Include="pytypeobject.h" />
+    <ClInclude Include="simplepython.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pydictobject.cpp" />
+    <ClCompile Include="pyintobject.cpp" />
+    <ClCompile Include="pyobject.cpp" />
+    <ClCompile Include="pystrobject.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E2ADC21A-BE61-446C-8F79-ECCAA1488A32}</ProjectGuid>
     <RootNamespace>SimplePython</RootNamespace>
@@ -74,6 +91,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -109,8 +127,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

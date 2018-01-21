@@ -14,4 +14,47 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pyobject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pytypeobject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="simplepython.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pyintobject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pystrobject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pydictobject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pyintobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pystrobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pyobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pydictobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
